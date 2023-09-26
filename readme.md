@@ -25,7 +25,7 @@ This project combines the power of Artificial Intelligence, Rails, and Flask to 
 
 First, clone the repository to your local machine:
 
-\`\`\`bash
+\`\`\`
 git clone <your-repository-link>
 \`\`\`
 
@@ -33,7 +33,7 @@ git clone <your-repository-link>
 
 1. Navigate to the Flask application folder:
 
-        \`\`\`bash
+        \`\`\`
         cd flask_ai
         \`\`\`
 
@@ -47,13 +47,13 @@ git clone <your-repository-link>
 
 1. Navigate to the Flask application folder (if you aren't already there):
 
-    \`\`\`bash
+    \`\`\`
     cd flask_ai
     \`\`\`
 
 2. Create a virtual environment:
 
-    \`\`\`bash
+    \`\`\`
     python3 -m venv venv
     \`\`\`
 
@@ -61,25 +61,25 @@ git clone <your-repository-link>
 
     - **Mac/Linux**:
 
-        \`\`\`bash
+        \`\`\`
         source venv/bin/activate
         \`\`\`
 
     - **Windows**:
 
-        \`\`\`bash
+        \`\`\`
         .\\venv\\Scripts\\activate
         \`\`\`
 
 4. Install the required packages:
 
-    \`\`\`bash
+    \`\`\`
     pip install -r requirements.txt
     \`\`\`
 
 5. Start the Flask app:
 
-    \`\`\`bash
+    \`\`\`
     python flask_app.py
     \`\`\`
 
@@ -87,19 +87,19 @@ git clone <your-repository-link>
 
 1. Navigate to the Rails application folder:
 
-    \`\`\`bash
+    \`\`\`
     cd RAILS_ESBUILD
     \`\`\`
 
 2. Install the Ruby Gem dependencies:
 
-    \`\`\`bash
+    \`\`\`
     bundle install
     \`\`\`
 
 3. Start the Rails app:
 
-    \`\`\`bash
+    \`\`\`
     bin/dev
     \`\`\`
 
@@ -112,7 +112,3 @@ For more information on using React with ESBuild and Rails, you can watch this [
 2. Upload a PDF document using the "Choose File" button.
 3. Enter your question in the text area.
 4. Click "Submit" to get your answer.
-
-## License
-
-MIT
