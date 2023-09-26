@@ -32,9 +32,9 @@ git clone https://github.com/colin-thornburg/React-Rails-Langchain.git
 ### Setting Up OpenAI API Key
 
 1. Navigate to the Flask application folder:
-
-        
-        ```cd flask_ai```
+    ```
+    cd flask_ai
+    ```
         
 
 2. You need to set up an OpenAI API key for the Flask application to function correctly.
