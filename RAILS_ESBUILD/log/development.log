@@ -1,0 +1,1283 @@
+Started GET "/" for ::1 at 2023-09-18 08:32:00 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/colinthornburg/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/colinthornburg/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 938)
+Completed 200 OK in 16ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 10048)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:37:10 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 593)
+  Rendered layout layouts/application.html.erb (Duration: 229.4ms | Allocations: 80630)
+Completed 200 OK in 249ms (Views: 231.4ms | ActiveRecord: 0.0ms | Allocations: 87442)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:43:52 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 593)
+  Rendered layout layouts/application.html.erb (Duration: 465.7ms | Allocations: 56808)
+Completed 200 OK in 486ms (Views: 467.9ms | ActiveRecord: 0.0ms | Allocations: 63620)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:44:11 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.erb (Duration: 236.8ms | Allocations: 34611)
+Completed 200 OK in 238ms (Views: 237.8ms | ActiveRecord: 0.0ms | Allocations: 34965)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:45:26 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 222.4ms | Allocations: 34484)
+Completed 200 OK in 236ms (Views: 232.1ms | ActiveRecord: 0.0ms | Allocations: 34783)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:54:58 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 250.9ms | Allocations: 35433)
+Completed 200 OK in 253ms (Views: 251.8ms | ActiveRecord: 0.0ms | Allocations: 35729)
+
+
+Started GET "/" for ::1 at 2023-09-18 08:59:05 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2351)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 3182)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 10:16:23 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000146bff440 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-65533-wgdcaa.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is a materialized View?"}
+Completed 400 Bad Request in 47ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 2339)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 10:19:18 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000010a0d0a10 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67163-vg2uzj.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is a materialized View?"}
+Completed 200 OK in 21426ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 4257)
+
+
+Started GET "/" for ::1 at 2023-09-18 10:22:32 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 590)
+  Rendered layout layouts/application.html.erb (Duration: 487.0ms | Allocations: 57156)
+Completed 200 OK in 511ms (Views: 492.0ms | ActiveRecord: 0.0ms | Allocations: 61244)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 10:22:53 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000109d37480 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67163-ua6db7.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is a materialized View?"}
+Completed 200 OK in 21403ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 1033)
+
+
+Started GET "/" for ::1 at 2023-09-18 10:26:36 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 242.3ms | Allocations: 34953)
+Completed 200 OK in 249ms (Views: 245.1ms | ActiveRecord: 0.0ms | Allocations: 35270)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 10:27:04 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000012eeb43d8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67163-p11vfh.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is a ELT?"}
+Completed 200 OK in 19939ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 918)
+
+
+Started GET "/" for ::1 at 2023-09-18 10:28:01 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 593)
+  Rendered layout layouts/application.html.erb (Duration: 497.3ms | Allocations: 57322)
+Completed 200 OK in 506ms (Views: 499.6ms | ActiveRecord: 0.0ms | Allocations: 64133)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 10:28:21 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000135d0b390 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67462-vztams.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is ELT?"}
+Completed 200 OK in 20954ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 1456)
+
+
+Started GET "/" for ::1 at 2023-09-18 10:47:24 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 2824)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4045)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 10:47:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 10:51:29 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 266.9ms | Allocations: 38403)
+Completed 200 OK in 271ms (Views: 269.4ms | ActiveRecord: 0.0ms | Allocations: 39602)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 10:51:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 10:54:57 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000122a4ad58 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67462-57xffn.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is ELT?"}
+Completed 200 OK in 23361ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+Started GET "/" for ::1 at 2023-09-18 10:58:29 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 261.1ms | Allocations: 36600)
+Completed 200 OK in 271ms (Views: 263.4ms | ActiveRecord: 0.0ms | Allocations: 36902)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 10:58:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 11:03:01 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.9ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 256.2ms | Allocations: 35392)
+Completed 200 OK in 279ms (Views: 276.4ms | ActiveRecord: 0.0ms | Allocations: 35688)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:03:01 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 11:04:15 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001058145b0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67462-tarrdq.pdf>, @content_type="application/pdf", @original_filename="Rails_Reactv7.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Rails_Reactv7.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"How do I set up the database?"}
+Completed 200 OK in 13888ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 887)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 11:05:03 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011481d520 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-67462-dggvzq.pdf>, @content_type="application/pdf", @original_filename="Rails_Reactv7.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Rails_Reactv7.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is Ruby on Rails?"}
+Completed 200 OK in 14624ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 896)
+
+
+Started GET "/" for ::1 at 2023-09-18 11:08:11 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 221.7ms | Allocations: 34955)
+Completed 200 OK in 223ms (Views: 222.7ms | ActiveRecord: 0.0ms | Allocations: 35251)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:08:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 11:14:26 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 4854)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 5149)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:14:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 11:16:23 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 251.6ms | Allocations: 37206)
+Completed 200 OK in 254ms (Views: 252.6ms | ActiveRecord: 0.0ms | Allocations: 37501)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:16:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 11:18:20 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 243.0ms | Allocations: 36682)
+Completed 200 OK in 245ms (Views: 244.1ms | ActiveRecord: 0.0ms | Allocations: 36977)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:18:20 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-18 11:20:23 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 285.1ms | Allocations: 37193)
+Completed 200 OK in 290ms (Views: 287.7ms | ActiveRecord: 0.0ms | Allocations: 37488)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 11:20:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 13:26:36 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013dbfdd38 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70204-w1gjz5.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is ELT?"}
+Completed 200 OK in 21145ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 4251)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:27:36 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000015ff279b0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70204-l1jmeo.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is a materialized view?"}
+Completed 200 OK in 4533ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1005)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:31:07 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000015f9a42e0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70204-88zypx.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is change data capture?"}
+Completed 200 OK in 22083ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 897)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:36:58 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013d8e7dd8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70204-vfwvgy.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is data engineering?"}
+Completed 200 OK in 5003ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 841)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:39:29 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013dd5eee8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70204-ami4yu.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is FinOps?"}
+Completed 200 OK in 5591ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 864)
+
+
+Started GET "/" for ::1 at 2023-09-18 13:40:07 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 640)
+  Rendered layout layouts/application.html.erb (Duration: 472.5ms | Allocations: 58779)
+Completed 200 OK in 481ms (Views: 474.8ms | ActiveRecord: 0.0ms | Allocations: 65590)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 13:40:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 13:40:35 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011237c7c0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-bhet8h.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is FinOps?"}
+Completed 200 OK in 20893ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1460)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:41:56 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000143fdb328 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-8wxgtz.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is a materialized view?"}
+Completed 200 OK in 4685ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 879)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:43:05 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000143fe0198 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-5fgqt7.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is change data capture?"}
+Completed 200 OK in 20532ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 884)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:44:01 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000143f51bc8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-hq3baw.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is data engineering?"}
+Completed 200 OK in 4725ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 828)
+
+
+Started GET "/" for ::1 at 2023-09-18 13:44:10 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 68)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2229)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2553)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 13:44:10 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 13:44:29 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001121227b8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-u7xwhw.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is FinOps?"}
+Completed 400 Bad Request in 60161ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1312)
+
+
+Started GET "/" for ::1 at 2023-09-18 13:45:49 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2056)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2354)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-18 13:45:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-18 13:46:12 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000143f7a0f0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-47m7ja.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is data engineering?"}
+Completed 200 OK in 4285ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 858)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:46:37 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013198b4f8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-41njo8.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is FinOps?"}
+Completed 200 OK in 4024ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 878)
+
+
+Started POST "/test_query" for ::1 at 2023-09-18 13:48:54 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011218bfd8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230918-70845-ipc14g.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is a materialized view?"}
+Completed 200 OK in 3149ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 842)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 16:54:45 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000115bda450 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-70845-mf5au.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is local disk storage?"}
+Completed 200 OK in 6455ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 850)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 16:56:15 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000130981008 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-70845-d3qao5.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is network attached storage?"}
+Completed 200 OK in 1545ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 849)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 16:57:15 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011217b250 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-70845-1th8fg.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is compression?"}
+Completed 200 OK in 3729ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 862)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 17:00:52 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000112740f28 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-70845-5uglut.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is serialization?"}
+Completed 200 OK in 4742ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 896)
+
+
+Started GET "/" for ::1 at 2023-09-20 17:02:42 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 243.6ms | Allocations: 35076)
+Completed 200 OK in 250ms (Views: 248.2ms | ActiveRecord: 0.0ms | Allocations: 35372)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:02:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-20 17:02:49 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>"null", "question"=>"what is data engineering?"}
+Completed 400 Bad Request in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1637)
+
+
+Started GET "/" for ::1 at 2023-09-20 17:14:58 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 275.6ms | Allocations: 35434)
+Completed 200 OK in 280ms (Views: 277.4ms | ActiveRecord: 0.0ms | Allocations: 35731)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:14:59 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:15:30 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 8.1ms | Allocations: 640)
+  Rendered layout layouts/application.html.erb (Duration: 333.3ms | Allocations: 26564)
+Completed 200 OK in 341ms (Views: 335.4ms | ActiveRecord: 0.0ms | Allocations: 33375)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:15:31 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:16:40 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 65)
+  Rendered layout layouts/application.html.erb (Duration: 232.8ms | Allocations: 35270)
+Completed 200 OK in 240ms (Views: 238.5ms | ActiveRecord: 0.0ms | Allocations: 35602)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:16:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-20 17:17:29 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014fa002d0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-62841-luvaw8.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is change data capture?"}
+Completed 200 OK in 5444ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1446)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 17:19:32 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000138d9fad8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-62841-vwkyd3.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is data engineering?"}
+Completed 200 OK in 3699ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 846)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 17:20:30 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000138d9f420 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-62841-gv2ke.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is data engineering?"}
+Completed 200 OK in 3567ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 871)
+
+
+Started GET "/" for ::1 at 2023-09-20 17:20:44 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 68)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 2374)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 2699)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:20:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started POST "/test_query" for ::1 at 2023-09-20 17:20:59 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f6fcc28 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-62841-mse8jy.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is data engineering?"}
+Completed 200 OK in 3303ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 887)
+
+
+Started POST "/test_query" for ::1 at 2023-09-20 17:21:24 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011f501a20 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230920-62841-r10se1.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what is caching?"}
+Completed 200 OK in 3835ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 846)
+
+
+Started GET "/" for ::1 at 2023-09-20 17:50:07 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 250.8ms | Allocations: 36920)
+Completed 200 OK in 256ms (Views: 253.8ms | ActiveRecord: 0.0ms | Allocations: 37216)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:50:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:51:04 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4413)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 4710)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:51:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:51:12 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 4420)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 4718)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:51:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:52:40 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 3898)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 4193)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:52:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:55:29 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 284)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2770)
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/path_to_your_image_here" for ::1 at 2023-09-20 17:55:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/path_to_your_image_here"):
+  
+Started GET "/" for ::1 at 2023-09-20 17:58:24 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 290.0ms | Allocations: 19966)
+  Rendered layout layouts/application.html.erb (Duration: 291.9ms | Allocations: 22204)
+Completed 200 OK in 299ms (Views: 296.4ms | ActiveRecord: 0.0ms | Allocations: 23393)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:37:32 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 12.2ms | Allocations: 646)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 2525)
+Completed 200 OK in 31ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 2837)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:37:58 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f787cd8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-mc4ezh.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What time is my son's games on Sunday, September 24?"}
+Completed 200 OK in 5915ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 885)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:38:18 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f7b5688 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-o8qmny.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Great, who do they play?"}
+Completed 200 OK in 2066ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 776)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:38:42 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f7df618 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-kqlxqy.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is my son's name?"}
+Completed 200 OK in 1305ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 772)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:39:54 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f7fa4b8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-5jpnai.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What team does my son play on?"}
+Completed 200 OK in 1562ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:41:19 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2507)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2802)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:41:30 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>"null", "question"=>"What is the current day and time?"}
+Completed 400 Bad Request in 7ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1637)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:41:37 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2504)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2799)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:42:15 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000138ce46e8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-ozana8.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current day and time?"}
+Completed 200 OK in 2525ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4795)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:46:52 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2534)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2829)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:47:06 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000138d2f8a0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-ll683s.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current day?"}
+Completed 200 OK in 5524ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 784)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:47:42 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000138d65d38 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-bkrqce.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is my son's name?"}
+Completed 200 OK in 1386ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:47:57 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001480316c0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-41wz7m.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Do you know the current date and time?"}
+Completed 200 OK in 1901ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:48:11 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014fb478f0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-f0epsl.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Do you know the current day and time?"}
+Completed 200 OK in 2782ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 05:48:27 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014fb576d8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-6fvzbs.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who do the Yankees play this weekend?"}
+Completed 200 OK in 1861ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:51:44 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1022)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3253)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4437)
+
+
+Started GET "/" for ::1 at 2023-09-23 05:56:29 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 25.8ms | Allocations: 1017)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | Allocations: 3536)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.0ms | Allocations: 4733)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:03:21 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 23.8ms | Allocations: 1017)
+  Rendered layout layouts/application.html.erb (Duration: 334.6ms | Allocations: 40171)
+Completed 200 OK in 342ms (Views: 340.7ms | ActiveRecord: 0.0ms | Allocations: 41368)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:03:48 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013e6443c8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-hw58ix.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1853ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 876)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:04:26 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 644)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2785)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3083)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:04:50 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001389529f8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-fjxef1.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is Luke's game this weekend?"}
+Completed 200 OK in 2895ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:18:14 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 15.3ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 4070)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.0ms | Allocations: 4365)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:20:13 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 280.1ms | Allocations: 35744)
+Completed 200 OK in 281ms (Views: 280.7ms | ActiveRecord: 0.0ms | Allocations: 36039)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:22:08 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 645)
+  Rendered layout layouts/application.html.erb (Duration: 260.2ms | Allocations: 37110)
+Completed 200 OK in 262ms (Views: 261.0ms | ActiveRecord: 0.0ms | Allocations: 37405)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:22:23 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013f846828 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-r24qyh.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 3875ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 788)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:22:52 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001480666e0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-n542ae.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is Luke's next baseball game given you know the current date and time?"}
+Completed 200 OK in 1828ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:23:56 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2797)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 3092)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:24:17 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013a264fe0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-7amvis.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"If my anniversary is on October 1, how many days away is that?"}
+Completed 200 OK in 5923ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 785)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:37:19 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2761)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 3056)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:37:43 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014fb85178 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-euumde.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the next baseball game?"}
+Completed 200 OK in 3726ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:41:10 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 265.5ms | Allocations: 35708)
+Completed 200 OK in 269ms (Views: 266.9ms | ActiveRecord: 0.0ms | Allocations: 36003)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:41:17 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>"null", "question"=>"What is the overall sentiment of this document?"}
+Completed 400 Bad Request in 7ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1593)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:41:22 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 646)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 2802)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3097)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:41:29 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f4b17c0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-e578r9.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1856ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 783)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:45:31 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 242.3ms | Allocations: 36634)
+Completed 200 OK in 245ms (Views: 243.6ms | ActiveRecord: 0.0ms | Allocations: 36929)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:46:02 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014f7ee708 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-fj4zfi.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1856ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 786)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:48:22 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 642)
+  Rendered layout layouts/application.html.erb (Duration: 235.5ms | Allocations: 36183)
+Completed 200 OK in 238ms (Views: 236.8ms | ActiveRecord: 0.0ms | Allocations: 36478)
+
+
+Started POST "/test_query" for ::1 at 2023-09-23 06:48:34 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013a174950 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-62841-v3596w.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"How do I decide what kind of business I should start?"}
+Completed 200 OK in 19801ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 899)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:52:00 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 644)
+  Rendered layout layouts/application.html.erb (Duration: 240.2ms | Allocations: 35752)
+Completed 200 OK in 242ms (Views: 241.5ms | ActiveRecord: 0.0ms | Allocations: 36047)
+
+
+Started GET "/" for ::1 at 2023-09-23 06:56:18 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1021)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 3526)
+Completed 200 OK in 30ms (Views: 27.6ms | ActiveRecord: 0.0ms | Allocations: 4710)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 07:32:18 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 301.3ms | Allocations: 25800)
+  Rendered layout layouts/application.html.erb (Duration: 305.0ms | Allocations: 28480)
+Completed 200 OK in 346ms (Views: 307.4ms | ActiveRecord: 0.0ms | Allocations: 35378)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 07:43:33 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2907)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 3259)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 07:45:15 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2798)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 3096)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 07:47:24 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 97.5ms | Allocations: 21691)
+  Rendered layout layouts/application.html.erb (Duration: 100.5ms | Allocations: 24522)
+Completed 200 OK in 111ms (Views: 103.6ms | ActiveRecord: 0.0ms | Allocations: 31333)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 07:51:54 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.5ms | Allocations: 766)
+  Rendered layout layouts/application.html.erb (Duration: 299.1ms | Allocations: 37098)
+Completed 200 OK in 307ms (Views: 303.1ms | ActiveRecord: 0.0ms | Allocations: 37450)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 07:52:00 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001567fa678 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-9738-i1jrp7.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the overall sentiment of this document?"}
+Completed 200 OK in 116ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1347)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-23 08:01:25 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 319.9ms | Allocations: 25504)
+  Rendered layout layouts/application.html.erb (Duration: 322.7ms | Allocations: 28289)
+Completed 200 OK in 338ms (Views: 332.0ms | ActiveRecord: 0.0ms | Allocations: 35100)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:01:33 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000013acfa6a8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-tovkav.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Can you summarize this document?"}
+Completed 200 OK in 6805ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1369)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:02:00 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001048b4138 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-u0wezm.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"what team is playing?"}
+Completed 200 OK in 1559ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:02:16 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104987bf0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-60ywir.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Is there a game on September 24?"}
+Completed 200 OK in 1387ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:02:25 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104a6eaa0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-hkgca5.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who plays on September 24?"}
+Completed 200 OK in 2798ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:03:21 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104b44718 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-e1rrhr.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who do the RB Yankees play?"}
+Completed 200 OK in 3213ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:03:58 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104becc38 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-82m8jx.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1738ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:04:57 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104d736b0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-6sqcb9.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Can you tell me about what is happening on Aug 6?"}
+Completed 200 OK in 1985ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:05:32 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x00000001284309d0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-i5houj.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is Data Engineering?"}
+Completed 200 OK in 15624ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 867)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:06:09 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104ceaab8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-i5nwlo.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who is the author?"}
+Completed 200 OK in 1705ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 798)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:15:21 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000128423c30 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-itqe5k.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who is the development editor?"}
+Completed 200 OK in 2802ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 817)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:15:43 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011a52ad30 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-mrkn2a.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the NFL team in Dallas?"}
+Completed 200 OK in 2496ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 820)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-23 08:16:13 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000104cd3cc8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230923-10086-6m1aqc.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who is Gregory Hyman?"}
+Completed 200 OK in 1836ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 833)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:06:05 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.7ms | Allocations: 767)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 2991)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 3315)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:06:29 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000103104560 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-10086-2kqxs.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 355ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 798)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:20:48 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 91.0ms | Allocations: 21904)
+  Rendered layout layouts/application.html.erb (Duration: 100.2ms | Allocations: 24748)
+Completed 200 OK in 108ms (Views: 102.3ms | ActiveRecord: 0.0ms | Allocations: 31559)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:20:58 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000106dc1340 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14298-o3cwz8.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1349)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:22:50 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 92.1ms | Allocations: 21602)
+  Rendered layout layouts/application.html.erb (Duration: 95.8ms | Allocations: 24418)
+Completed 200 OK in 105ms (Views: 99.4ms | ActiveRecord: 0.0ms | Allocations: 31229)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:23:05 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000112988380 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14433-kdsv19.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"when is the game on September 24?"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1349)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:31:36 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 592.0ms | Allocations: 58122)
+  Rendered layout layouts/application.html.erb (Duration: 595.9ms | Allocations: 60938)
+Completed 200 OK in 605ms (Views: 598.1ms | ActiveRecord: 0.0ms | Allocations: 67749)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:31:51 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011d38d010 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-o03i5y.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1348)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:32:12 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014ce8d580 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-l9ensx.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 771)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:34:02 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.6ms | Allocations: 759)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2971)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3297)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:34:13 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011d53aa98 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-np15lx.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game September 24?"}
+Completed 200 OK in 78ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 769)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:35:19 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2795)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3093)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:35:33 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e909ec0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-lhcy0c.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 1226ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:36:50 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2800)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 3095)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:37:01 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e99b690 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-iwiwpf.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 896ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:37:59 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.1ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2810)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 3107)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:38:12 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e9d13f8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-thyucz.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 2162ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:40:16 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 642)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2823)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3120)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:40:27 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011b86c218 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-aesqc8.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 2141ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:41:58 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000012a8c6448 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-zeycaa.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 1821ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 801)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:42:25 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000012a909f68 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-s7lduq.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who do the Yankess play the 2nd game on September 24?"}
+Completed 200 OK in 1599ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:43:04 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011a085618 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-kf6pos.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Are you familiar with the New York Yankees Professional Baseball team?"}
+Completed 200 OK in 1371ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 771)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:43:59 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000149af2270 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-mfnqr8.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who is the Production Editor?"}
+Completed 200 OK in 11059ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 857)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:44:33 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011a8892b0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-zdp027.pdf>, @content_type="application/pdf", @original_filename="Fund_of_Data_Eng_Book.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Fund_of_Data_Eng_Book.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Who is the Acquisitions Editor?"}
+Completed 200 OK in 9728ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 876)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:47:00 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 14.2ms | Allocations: 649)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 2818)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 3114)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:47:19 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x0000000139c5f618 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-wlqip7.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 1051ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:47:55 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2791)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 3086)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:48:06 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014ce448a8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-bbd4to.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 2514ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 778)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:55:36 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2812)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3107)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:55:47 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000014cfbaa48 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-35lah8.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 940ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 06:56:23 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2797)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3092)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 06:56:35 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e8cabd0 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-7ixifm.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the game on September 24?"}
+Completed 200 OK in 2090ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 786)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 07:00:13 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2803)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3098)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:00:26 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e958750 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-aheky6.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 988ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started GET "/" for 127.0.0.1 at 2023-09-24 07:04:28 -0400
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 641)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2788)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 3083)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:04:37 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011ea41d10 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-ehh4yi.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1777ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 775)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:04:51 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011d53db30 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-u78ps4.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"What is the current date and time?"}
+Completed 200 OK in 1624ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 774)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:05:18 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000012a890910 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-y6ezju.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the next game?"}
+Completed 200 OK in 1891ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 773)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:05:35 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000012a8cc7f8 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-t2j01h.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"When is the next game given you know the current date and time?"}
+Completed 200 OK in 1888ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 786)
+
+
+Started POST "/test_query" for 127.0.0.1 at 2023-09-24 07:06:35 -0400
+Processing by QueriesController#test_query as */*
+  Parameters: {"pdf_data"=>#<ActionDispatch::Http::UploadedFile:0x000000011e0ff798 @tempfile=#<Tempfile:/var/folders/zm/9sv86s7x7lscs1w2081s11500000gp/T/RackMultipart20230924-14616-elgtu8.pdf>, @content_type="application/pdf", @original_filename="Luke_Baseball_Schedule.pdf", @headers="Content-Disposition: form-data; name=\"pdf_data\"; filename=\"Luke_Baseball_Schedule.pdf\"\r\nContent-Type: application/pdf\r\n">, "question"=>"Do you remember the current date and time?"}
+Completed 200 OK in 1496ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 771)
+
+
