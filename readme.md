@@ -13,10 +13,9 @@ This project combines the power of Artificial Intelligence, Rails, and Flask to 
 ## Dependencies
 
 - **Flask**: 2.1.0
-- **python-dotenv**: 0.19.2
-- **numpy**: 1.21.2
-- **Flask-CORS**: 3.1.1
 - **langchain**
+- **faiss-cpu**:1.7.4
+- **tiktoken**:0.5.1
 - **httparty**: Ruby Gem
 
 ## Installation & Setup
