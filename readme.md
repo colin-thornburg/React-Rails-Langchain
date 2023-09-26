@@ -26,7 +26,7 @@ This project combines the power of Artificial Intelligence, Rails, and Flask to 
 First, clone the repository to your local machine:
 
 ```
-git clone <your-repository-link>
+git clone https://github.com/colin-thornburg/React-Rails-Langchain.git
 ```
 
 ### Setting Up OpenAI API Key
