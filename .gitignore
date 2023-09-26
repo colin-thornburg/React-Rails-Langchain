@@ -1,2 +1,4 @@
 flask_ai/.env
 RAILS_ESBUILD/config/master.key
+venv/
+.DS_Store
