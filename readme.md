@@ -25,17 +25,17 @@ This project combines the power of Artificial Intelligence, Rails, and Flask to 
 
 First, clone the repository to your local machine:
 
-\`\`\`
+```
 git clone <your-repository-link>
-\`\`\`
+```
 
 ### Setting Up OpenAI API Key
 
 1. Navigate to the Flask application folder:
 
-        \`\`\`
+        ```
         cd flask_ai
-        \`\`\`
+        ```
 
 2. You need to set up an OpenAI API key for the Flask application to function correctly.
 3. Add an environment variable `OPENAI_API_KEY` with your OpenAI API key.
@@ -47,61 +47,61 @@ git clone <your-repository-link>
 
 1. Navigate to the Flask application folder (if you aren't already there):
 
-    \`\`\`
+    ```
     cd flask_ai
-    \`\`\`
+    ```
 
 2. Create a virtual environment:
 
-    \`\`\`
+    ```
     python3 -m venv venv
-    \`\`\`
+    ```
 
 3. Activate the virtual environment:
 
     - **Mac/Linux**:
 
-        \`\`\`
+        ```
         source venv/bin/activate
-        \`\`\`
+        ```
 
     - **Windows**:
 
-        \`\`\`
+        ```
         .\\venv\\Scripts\\activate
-        \`\`\`
+        ```
 
 4. Install the required packages:
 
-    \`\`\`
+    ```
     pip install -r requirements.txt
-    \`\`\`
+    ```
 
 5. Start the Flask app:
 
-    \`\`\`
+    ```
     python flask_app.py
-    \`\`\`
+    ```
 
 ### Setting Up the Rails App (RAILS_ESBUILD)
 
 1. Navigate to the Rails application folder:
 
-    \`\`\`
+    ```
     cd RAILS_ESBUILD
-    \`\`\`
+    ```
 
 2. Install the Ruby Gem dependencies:
 
-    \`\`\`
+    ```
     bundle install
-    \`\`\`
+    ```
 
 3. Start the Rails app:
 
-    \`\`\`
+    ```
     bin/dev
-    \`\`\`
+    ```
 
 For more information on using React with ESBuild and Rails, you can watch this [YouTube tutorial](https://youtu.be/yoLJXjEV2nM?si=2dqvMXGe2-ElU4US).
 
