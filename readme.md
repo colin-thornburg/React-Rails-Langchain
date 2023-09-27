@@ -22,7 +22,7 @@ This project combines the power of Artificial Intelligence, Rails, and Flask to 
 
 ### Cloning the Repository
 
-First, clone the repository to your local machine:
+First, clone the repository to your local machine by opening up a new terminal window:
 
 ```
 git clone https://github.com/colin-thornburg/React-Rails-Langchain.git
@@ -32,11 +32,12 @@ git clone https://github.com/colin-thornburg/React-Rails-Langchain.git
 
 1. Navigate to the Flask application folder:
     ```
-    cd flask_ai
-    ```
-        
+    cd React-Rails-Langchain/flask_ai
 
-2. You need to set up an OpenAI API key for the Flask application to function correctly.
+    ```
+
+
+2. You need to set up an OpenAI API key for the Flask application to function correctly.  Visit [OpenAI](https://platform.openai.com/account/api-keys)
 3. Add an environment variable `OPENAI_API_KEY` with your OpenAI API key.
     - On Mac/Linux: `export OPENAI_API_KEY=your-api-key-here`
     - On Windows: `set OPENAI_API_KEY=your-api-key-here`
@@ -84,10 +85,10 @@ git clone https://github.com/colin-thornburg/React-Rails-Langchain.git
 
 ### Setting Up the Rails App (RAILS_ESBUILD)
 
-1. Navigate to the Rails application folder:
+1. Open a new terminal and navigate to the Rails application folder:
 
     ```
-    cd RAILS_ESBUILD
+    cd React-Rails-Langchain/RAILS_ESBUILD
     ```
 
 2. Install the Ruby Gem dependencies:
