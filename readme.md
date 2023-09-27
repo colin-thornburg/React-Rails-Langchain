@@ -4,6 +4,9 @@
 
 This project combines the power of Artificial Intelligence, Rails, and Flask to provide an intuitive way to extract information from PDF documents. Users can upload a PDF file and ask a question related to the content of the PDF. The system utilizes a state-of-the-art machine learning model to read the PDF and answer the question in real-time.
 
+![Screenshot](/RAILS_ESBUILD/app/assets/images/Screenshot.png)
+
+
 ## Technologies Used
 
 - **Python**: 3.9.12
